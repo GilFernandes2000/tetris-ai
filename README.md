@@ -1,5 +1,7 @@
-# ia-tetris
+# Tetris AI
 Projecto de Inteligência Artificial 2021 - Tetris
+
+![Tetris Logo](data/tetris_block.png "Tetris logo")
 
 ## How to install
 
@@ -11,6 +13,7 @@ Make sure you are running Python 3.7 or higher
 
 ## How to play
 
+### Play by yourself
 open 3 terminals:
 
 `$ python3 server.py`
@@ -18,6 +21,15 @@ open 3 terminals:
 `$ python3 viewer.py`
 
 `$ python3 client.py`
+
+### Make the AI play
+open 3 terminals:
+
+`$ python3 server.py`
+
+`$ python3 viewer.py`
+
+`$ python3 student.py`
 
 to play using the sample client make sure the client pygame window has focus
 
